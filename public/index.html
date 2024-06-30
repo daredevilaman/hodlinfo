@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HodlInfo</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>HODLINFO</h1>
+            <div class="currency-selector">
+                <button>INR</button>
+                <button>BTC</button>
+                <button>BUY BTC</button>
+            </div>
+            <div class="best-price">
+                <p>Best Price to Trade</p>
+                <h2>₹26,56,110</h2>
+                <p>Average BTC/INR net price including commission</p>
+            </div>
+            <div class="price-change">
+                <p>0.1% 5 Mins</p>
+                <p>0.96% 1 Hour</p>
+                <p>2.73% 1 Day</p>
+                <p>7.51% 7 Days</p>
+            </div>
+            <button class="connect-telegram">Connect Telegram</button>
+        </div>
+        <div class="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Platform</th>
+                        <th>Last Traded Price</th>
+                        <th>Buy / Sell Price</th>
+                        <th>Difference</th>
+                        <th>Savings</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                    <!-- Data will be inserted here by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+        <button class="add-to-home">Add hodlinfo to home screen</button>
+    </div>
+    <script src="/app.js"></script>
+</body>
+</html>

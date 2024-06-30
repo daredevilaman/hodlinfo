@@ -1,0 +1,68 @@
+body {
+    background-color: #1c1c1e;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.currency-selector button,
+.connect-telegram {
+    background-color: #2d2d2f;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.best-price {
+    text-align: center;
+}
+
+.price-change {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #1717b1;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #2d2d2f;
+}
+
+.add-to-home {
+    background-color: #2d2d2f;
+    color: #aa2727;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px 0;
+    cursor: pointer;
+}
